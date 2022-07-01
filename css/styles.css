@@ -231,16 +231,13 @@ h1, h2, h3, h4, h5, h6, ul, p {
 
 
 .advantages-icon {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 270px;
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-
-    padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;
     margin-bottom: 30px;
 }
 
@@ -459,6 +456,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 
 .footer .container{
     display: flex;
+    align-items: baseline;
 }
 
 .contacts {
@@ -655,6 +653,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
  .projects-type {
     font-size: 16px;
     line-height: 1.88;
+    color: var(--primery-text-color);
 }
 
 .descr-project {
